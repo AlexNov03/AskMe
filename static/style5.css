@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:lightgray;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.search__button{
+    all: unset;
+    box-sizing:content-box;
+    height: 23px;
+    width: 50px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid black;
+    background-color: green;
+    color:white;
+}
+
+.search__input{
+    height: 19px;
+    box-sizing:content-box;
+}
+
+.account{
+    display: flex;
+    gap: 10px;
+}
+
+.account__image{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.account__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+    padding: 10px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.cards{
+    width: 70%;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+
+.card{
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    margin: 10px 0px;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.card__side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__side__img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.card__side__input input{
+    width: 50px;
+}
+
+.card__content, 
+.card__body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__footer{
+    display: flex;
+    gap: 10px;
+}
+
+.
+
+/* .card__content{
+    width: 70%;
+} */

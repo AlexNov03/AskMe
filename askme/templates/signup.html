@@ -1,0 +1,82 @@
+{% extends "inc/base.html" %}
+
+{% block title %}
+      <div class="d-flex gap-3 align-items-center">
+        <h1>Registration</h1>
+      </div>
+{% endblock title%}
+
+{% block content %}
+      <div class="row bg-light">
+          <p class="col text-danger">
+              Sorry, this email address already registered!
+          </p>
+      </div>
+      <div class="row bg-light ">
+          <div class="col-3 py-1">
+              Login
+          </div>
+          <div class="col-8">
+              <div class="input-group flex-nowrap">
+                  <input type="text" placeholder="dr_pepper" class="form-control" />
+              </div>
+          </div>
+      </div>
+      <div class="row bg-light mt-3">
+          <div class="col-3 py-1">
+              Email
+          </div>
+          <div class="col-8">
+              <div class="input-group flex-nowrap">
+                  <input type="email" placeholder="dr_pepper@mail.ru" class="form-control" />
+              </div>
+          </div>
+      </div>
+      <div class="row bg-light mt-3">
+          <div class="col-3 py-1">
+              NickName
+          </div>
+          <div class="col-8">
+              <div class="input-group flex-nowrap">
+                  <input type="text" placeholder="Dr. Pepper" class="form-control" />
+              </div>
+          </div>
+      </div>
+      <div class="row bg-light mt-3">
+          <div class="col-3 py-1">
+              Password
+          </div>
+          <div class="col-8">
+              <div class="input-group flex-nowrap">
+                  <input type="password" placeholder="password" class="form-control" />
+              </div>
+          </div>
+      </div>
+      <div class="row bg-light mt-3">
+          <div class="col-3 py-1">
+              Repeat password
+          </div>
+          <div class="col-8">
+              <div class="input-group flex-nowrap">
+                  <input type="password" placeholder="password" class="form-control" />
+              </div>
+          </div>
+      </div>
+      <div class="row bg-light mt-3">
+          <div class="col-3 py-1">
+              Upload avatar
+          </div>
+          <div class="col-5">
+              <div class="input-group flex-nowrap">
+                  <input type="file" class="form-control" />
+              </div>
+          </div>
+      </div>
+      <div class="row bg-light mt-3 mb-3">
+          <div class="col-4 offset-3">
+            <input class="btn btn-primary" type="submit" value="Submit">
+          </div>
+      </div>
+{% endblock content %}
+        
+        

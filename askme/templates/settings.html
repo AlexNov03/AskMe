@@ -1,0 +1,65 @@
+{% extends "inc/base.html" %}
+
+{% load static %}
+
+{% block title %}
+      <div class="d-flex gap-3 align-items-center">
+        <h1>Settings: Dr. Pepper</h1>
+      </div>
+{% endblock title %}
+
+{% block content %}
+<div class="row bg-light ">
+    <div class="col-3 py-1">
+        Login
+    </div>
+    <div class="col-8">
+        <div class="input-group flex-nowrap">
+            <input type="text" placeholder="dr_pepper" class="form-control" />
+        </div>
+    </div>
+</div>
+<div class="row bg-light mt-3">
+    <div class="col-3 py-1">
+        Email
+    </div>
+    <div class="col-8">
+        <div class="input-group flex-nowrap">
+            <input type="email" placeholder="dr_pepper@mail.ru" class="form-control" />
+        </div>
+    </div>
+</div>
+<div class="row bg-light mt-3">
+    <div class="col-3 py-1">
+        NickName
+    </div>
+    <div class="col-8">
+        <div class="input-group flex-nowrap">
+            <input type="text" placeholder="Dr. Pepper" class="form-control" />
+        </div>
+    </div>
+</div>
+<div class="row bg-light mt-3">
+    <div class="col-3 py-1">
+        Upload Avatar
+    </div>
+    <div class="col-2">
+        <div class="border" style="min-height: 100px">
+            <img src="">
+        </div>
+    </div>
+</div>
+<div class="row bg-light mt-3">
+    <div class="col-5 offset-3">
+        <div class="input-group flex-nowrap">
+            <input type="file" class="form-control" />
+        </div>
+    </div>
+</div>
+<div class="row bg-light mt-3 mb-3">
+    <div class="col-4 offset-3">
+      <input class="btn btn-primary" type="submit" value="Submit">
+    </div>
+</div>
+{% endblock content %}
+          

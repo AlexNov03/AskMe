@@ -1,0 +1,56 @@
+{% extends "inc/base.html" %}
+
+{% block title%}
+      <div class="d-flex gap-3 align-items-center">
+        <h1>New Question</h1>
+      </div>
+{% endblock title %}
+
+{% block content %}
+<div class="row bg-light">
+  <p class="col text-danger">
+      Sorry, incorrect input format!
+  </p>
+</div>
+
+<div class="row bg-light">
+  <div class="col-3 py-1">
+      Title
+  </div>
+  <div class="col-8">
+      <div class="input-group flex-nowrap">
+          <input type="text" placeholder="How to build a moon-park? " class="form-control" />
+      </div>
+  </div>
+</div>
+
+<div class="row bg-light mt-3">
+  <div class="col-3 py-1">
+      Text
+  </div>
+  <div class="col-8">
+      <div class="input-group flex-nowrap" style="min-height: 200px;">
+          <textarea class="form-control" placeholder="Really how ? &#10Have no idea about it" ></textarea>
+      </div>
+  </div>
+</div>
+
+<div class="row bg-light mt-3">
+  <div class="col-3 py-1">
+      Tags
+  </div>
+  <div class="col-8">
+      <div class="input-group flex-nowrap">
+          <input type="text" placeholder="moon, park, puzzle " class="form-control" />
+      </div>
+  </div>
+</div>
+
+<div class="row bg-light mt-3 mb-3">
+  <div class="col-4 offset-3">
+    <input class="btn btn-primary" type="submit" value="Submit">
+  </div>
+</div>
+{% endblock content %}
+          
+        
